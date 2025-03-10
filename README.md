@@ -1,39 +1,59 @@
 # AI-in-Game-Development
 
-# 🎮 AI in Game Development
+# 🎮 AI-Powered NPC Game with Procedural Terrain
 
-This project explores **AI-driven game development**, focusing on:
-- **NPC Behavior** – Simulated non-player character movement.
-- **Procedural Content Generation** – AI-generated game environments.
-- **Basic AI Model** – NPC decision-making using a simple neural network.
+This project is an **AI-powered NPC movement simulation** built with **Pygame** and **TensorFlow**. The game features **procedurally generated terrain**, AI-controlled **NPCs**, and **obstacle avoidance**. It runs smoothly in **Google Colab** by capturing frames and generating a **GIF animation**.
 
-## 📌 Features
-✅ **AI NPC Movement** – NPCs move randomly and adapt based on AI decisions.  
-✅ **Procedural Terrain Generation** – Generates random maps using noise functions.  
-✅ **Deep Learning for AI Behavior** – NPC movement powered by a basic neural network.  
-✅ **Pygame for Visualization** – Runs in a simple game loop.  
+## 🚀 Features
+- 🏞 **Procedural Terrain Generation** using **Perlin Noise**.
+- 🤖 **AI-driven NPC Movement** trained with **TensorFlow**.
+- 🎭 **NPC Sprite Support** (or fallback to a default shape if unavailable).
+- 🔥 **Obstacle Avoidance** to prevent NPCs from walking into blocked areas.
+- 🎥 **GIF-based Animation** to visualize game progress in Google Colab.
 
-## 🚀 Getting Started
-### 1️⃣ **Install Dependencies**
-Run this in **Google Colab** or your local environment:
-```bash
-pip install pygame numpy tensorflow
+## 🛠 Installation
+This project is designed to run in **Google Colab**. If running locally, ensure you have **Python 3.11+**.
 
-2️⃣ Run the AI Game Simulation
-Run the Python script to see:
+1️⃣ Install dependencies:
+```sh
+!apt-get update
+!apt-get install -y python-opengl ffmpeg
+!pip install pygame numpy tensorflow noise imageio requests
+2️⃣ Clone this repository:
+git clone https://github.com/your-username/AI-NPC-Game.git
+cd AI-NPC-Game
 
-NPCs moving intelligently.
-A procedurally generated terrain.
-3️⃣ Modify AI NPC Behavior
-Edit create_npc_ai() to experiment with different AI movement patterns.
+3️⃣ Run the main.py script (or execute in Google Colab).
 
-🎮 Example Screenshots
+🏃‍♂️ Running in Google Colab
+Since Google Colab does not support live Pygame rendering, the game:
 
-(Example of AI-controlled NPC moving in a generated environment.)
+Generates terrain and AI-driven NPC movement.
+Saves multiple frames as images.
+Creates a GIF animation for visualization.
+To run the game in Google Colab:
 
-📌 Future Enhancements
-✅ Train AI to Learn from Player Movements
-✅ Generate More Complex Maps with Perlin Noise
-✅ Integrate Reinforcement Learning for Smarter NPCs
+from google.colab import files
+files.upload()  # Upload main.py and required files
+
+!python main.py
+
+📜 How It Works
+The AI model is trained to predict NPC movements.
+The terrain is generated using Perlin noise.
+NPCs move strategically, avoiding red obstacle areas.
+A GIF is generated instead of real-time rendering.
+📷 Expected Output
+The final output will be an animated GIF showing NPCs moving intelligently across the procedural terrain.
+
+
+📌 To-Do / Improvements
+🔄 Add real-time keyboard controls for a player-controlled NPC.
+🧠 Improve NPC AI using reinforcement learning.
+🌍 Enhance terrain generation for more natural landscapes.
+🎯 Implement pathfinding (A*) for smarter NPC movement.
+
+👥 Duncan Kibet.
+
 📜 License
 This project is licensed under the MIT License.
