@@ -3,14 +3,14 @@
 # AI-Powered NPC Game with Procedural Terrain
 
 This project is an **AI-powered NPC movement simulation** built with **Pygame** and **TensorFlow**. The game features **procedurally generated terrain**, AI-controlled **NPCs**, and **obstacle avoidance**. It runs smoothly in **Google Colab** by capturing frames and generating a **GIF animation**.
-
+---
 ##  Features
 -  **Procedural Terrain Generation** using **Perlin Noise**.
 -  **AI-driven NPC Movement** trained with **TensorFlow**.
 -  **NPC Sprite Support** (or fallback to a default shape if unavailable).
 -  **Obstacle Avoidance** to prevent NPCs from walking into blocked areas.
 -  **GIF-based Animation** to visualize game progress in Google Colab.
-
+---
 ##  Installation
 This project is designed to run in **Google Colab**. If running locally, ensure you have **Python 3.11+**.
 
@@ -22,10 +22,9 @@ This project is designed to run in **Google Colab**. If running locally, ensure 
 2️⃣ Clone this repository:
 git clone https://github.com/your-username/AI-NPC-Game.git
 cd AI-NPC-Game
-
 3️⃣ Run the main.py script (or execute in Google Colab).
 
-🏃‍♂️ Running in Google Colab
+##  Installation
 Since Google Colab does not support live Pygame rendering, the game:
 
 Generates terrain and AI-driven NPC movement.
