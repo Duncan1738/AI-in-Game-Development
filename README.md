@@ -40,9 +40,8 @@ NPCs move strategically, avoiding red obstacle areas.
 A GIF is generated instead of real-time rendering.
 Expected Output
 The final output will be an animated GIF showing NPCs moving intelligently across the procedural terrain.
-
-
- To-Do / Improvements
+---
+ ##To-Do / Improvements
  Add real-time keyboard controls for a player-controlled NPC.
  Improve NPC AI using reinforcement learning.
  Enhance terrain generation for more natural landscapes.
