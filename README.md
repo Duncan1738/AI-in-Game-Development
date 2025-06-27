@@ -7,7 +7,7 @@ This project is an **AI-powered NPC movement simulation** built with **Pygame** 
 ##  Features
 -  **Procedural Terrain Generation** using **Perlin Noise**.
 -  **AI-driven NPC Movement** trained with **TensorFlow**.
-- 🎭 **NPC Sprite Support** (or fallback to a default shape if unavailable).
+-  **NPC Sprite Support** (or fallback to a default shape if unavailable).
 - 🔥 **Obstacle Avoidance** to prevent NPCs from walking into blocked areas.
 - 🎥 **GIF-based Animation** to visualize game progress in Google Colab.
 
