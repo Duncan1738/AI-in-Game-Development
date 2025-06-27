@@ -49,7 +49,7 @@ The final output will be an animated GIF showing NPCs moving intelligently acros
  To-Do / Improvements
  Add real-time keyboard controls for a player-controlled NPC.
  Improve NPC AI using reinforcement learning.
-🌍 Enhance terrain generation for more natural landscapes.
+ Enhance terrain generation for more natural landscapes.
 🎯 Implement pathfinding (A*) for smarter NPC movement.
 
 👥 Duncan Kibet.
