@@ -42,7 +42,7 @@ The AI model is trained to predict NPC movements.
 The terrain is generated using Perlin noise.
 NPCs move strategically, avoiding red obstacle areas.
 A GIF is generated instead of real-time rendering.
-📷 Expected Output
+ Expected Output
 The final output will be an animated GIF showing NPCs moving intelligently across the procedural terrain.
 
 
