@@ -52,7 +52,7 @@ The final output will be an animated GIF showing NPCs moving intelligently acros
  Enhance terrain generation for more natural landscapes.
  Implement pathfinding (A*) for smarter NPC movement.
 
-👥 Duncan Kibet.
+Duncan Kibet.
 
 📜 License
 This project is licensed under the MIT License.
