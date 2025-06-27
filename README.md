@@ -1,6 +1,6 @@
 # AI-in-Game-Development
 
-# 🎮 AI-Powered NPC Game with Procedural Terrain
+# AI-Powered NPC Game with Procedural Terrain
 
 This project is an **AI-powered NPC movement simulation** built with **Pygame** and **TensorFlow**. The game features **procedurally generated terrain**, AI-controlled **NPCs**, and **obstacle avoidance**. It runs smoothly in **Google Colab** by capturing frames and generating a **GIF animation**.
 
