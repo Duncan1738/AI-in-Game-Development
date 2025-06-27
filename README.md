@@ -15,7 +15,6 @@ This project is an **AI-powered NPC movement simulation** built with **Pygame** 
 This project is designed to run in **Google Colab**. If running locally, ensure you have **Python 3.11+**.
 ---
 1️⃣ Install dependencies:
-```sh
 !apt-get update
 !apt-get install -y python-opengl ffmpeg
 !pip install pygame numpy tensorflow noise imageio requests
