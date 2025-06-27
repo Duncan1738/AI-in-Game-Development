@@ -42,9 +42,9 @@ Expected Output
 The final output will be an animated GIF showing NPCs moving intelligently across the procedural terrain.
 
  **To-Do / Improvements**
- Add real-time keyboard controls for a player-controlled NPC.
- Improve NPC AI using reinforcement learning.
- Enhance terrain generation for more natural landscapes.
- Implement pathfinding (A*) for smarter NPC movement.
+ 1. Add real-time keyboard controls for a player-controlled NPC.
+ 2. Improve NPC AI using reinforcement learning.
+ 3. Enhance terrain generation for more natural landscapes.
+ 4. Implement pathfinding (A*) for smarter NPC movement.
 
  MIT License.
