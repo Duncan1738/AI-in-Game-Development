@@ -9,7 +9,7 @@ This project is an **AI-powered NPC movement simulation** built with **Pygame** 
 -  **AI-driven NPC Movement** trained with **TensorFlow**.
 -  **NPC Sprite Support** (or fallback to a default shape if unavailable).
 -  **Obstacle Avoidance** to prevent NPCs from walking into blocked areas.
-- 🎥 **GIF-based Animation** to visualize game progress in Google Colab.
+-  **GIF-based Animation** to visualize game progress in Google Colab.
 
 ## 🛠 Installation
 This project is designed to run in **Google Colab**. If running locally, ensure you have **Python 3.11+**.
