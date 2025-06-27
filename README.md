@@ -37,7 +37,7 @@ files.upload()  # Upload main.py and required files
 
 !python main.py
 
-📜 How It Works
+ How It Works
 The AI model is trained to predict NPC movements.
 The terrain is generated using Perlin noise.
 NPCs move strategically, avoiding red obstacle areas.
