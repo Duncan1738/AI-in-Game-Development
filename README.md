@@ -22,7 +22,7 @@ This project is designed to run in **Google Colab**. If running locally, ensure 
 git clone https://github.com/your-username/AI-NPC-Game.git
 cd AI-NPC-Game
 3️⃣ Run the main.py script (or execute in Google Colab).
-
+---
 ##  Installation
 Since Google Colab does not support live Pygame rendering, the game:
 
