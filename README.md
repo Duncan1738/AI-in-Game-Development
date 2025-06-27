@@ -13,7 +13,6 @@ This project is an **AI-powered NPC movement simulation** built with **Pygame** 
 ---
 ##  Installation
 This project is designed to run in **Google Colab**. If running locally, ensure you have **Python 3.11+**.
----
 1️⃣ Install dependencies:
 !apt-get update
 !apt-get install -y python-opengl ffmpeg
@@ -22,8 +21,7 @@ This project is designed to run in **Google Colab**. If running locally, ensure 
 git clone https://github.com/your-username/AI-NPC-Game.git
 cd AI-NPC-Game
 3️⃣ Run the main.py script (or execute in Google Colab).
----
-##  Installation
+
 Since Google Colab does not support live Pygame rendering, the game:
 
 Generates terrain and AI-driven NPC movement.
