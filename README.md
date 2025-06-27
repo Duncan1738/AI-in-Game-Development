@@ -13,7 +13,7 @@ This project is an **AI-powered NPC movement simulation** built with **Pygame** 
 ---
 ##  Installation
 This project is designed to run in **Google Colab**. If running locally, ensure you have **Python 3.11+**.
-
+---
 1️⃣ Install dependencies:
 ```sh
 !apt-get update
@@ -23,7 +23,7 @@ This project is designed to run in **Google Colab**. If running locally, ensure 
 git clone https://github.com/your-username/AI-NPC-Game.git
 cd AI-NPC-Game
 3️⃣ Run the main.py script (or execute in Google Colab).
-
+---
 ##  Installation
 Since Google Colab does not support live Pygame rendering, the game:
 
@@ -52,7 +52,4 @@ The final output will be an animated GIF showing NPCs moving intelligently acros
  Enhance terrain generation for more natural landscapes.
  Implement pathfinding (A*) for smarter NPC movement.
 
-Duncan Kibet.
-
-📜 License
-This project is licensed under the MIT License.
+ MIT License.
