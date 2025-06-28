@@ -18,7 +18,7 @@ This project is designed to run in **Google Colab**. If running locally, ensure 
 !apt-get install -y python-opengl ffmpeg
 !pip install pygame numpy tensorflow noise imageio requests
 2️⃣ Clone this repository:
-git clone https://github.com/your-username/AI-NPC-Game.git
+git clone https://github.com/Duncan1738/AI-NPC-Game.git
 cd AI-NPC-Game
 3️⃣ Run the main.py script (or execute in Google Colab).
 
